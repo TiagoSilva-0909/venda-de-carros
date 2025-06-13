@@ -1,0 +1,167 @@
+/* CSS para o site de venda de carros */
+.body{
+background:linear-gradient(55deg, #c00101, #0095ff);
+
+
+
+}
+/*definindo o sticky no header*/
+.sticky {
+    position: sticky;
+    top: 0;
+
+}
+        
+* {
+      margin: 0px;
+      padding: 0;
+        
+}
+
+    nav a {
+      color: var(--cor-clara);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--cor-secundaria);
+    }
+/*configuraçao do banner*/
+    .banner {
+      background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 0, 0);
+      text-align: center;
+    }
+
+.banner:hover{
+ transform: scale(1.02);
+ transition: 0.5s;
+
+}
+
+
+
+    /*div que esta trasparente no banner do carro*/
+    .banner h2 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.684);
+      padding: 20px;
+      border-radius: 20px;
+    
+    
+    }
+
+    .destaques {
+      padding: 20px 20px;
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      background-color: var(--cor-clara);
+    }
+
+    /*configuraçao do card*/
+    .carro {
+      background: rgb(213, 213, 213);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.693);
+      transition: transform 0.2s;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*selecionando o hover no card*/
+    .carro:hover {
+      transform: scale(1.02);
+    }
+
+    .carro img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .carro-info {
+      padding: 15px;
+    }
+
+    /*texto do 3 card*/
+    .carro-info h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    
+      
+    
+
+.rodape{
+    background: linear-gradient(55deg, #ff0000, #008cff);
+    text-align: center;  
+    width: 100%;
+    padding: 0;
+    height: 50px;
+    
+
+}
+
+
+
+.botao1{
+    border-radius: 10px;
+    background:linear-gradient(55deg, #ffffff, #ff0000);
+    width: 80px;
+    height: 30px;
+
+}
+
+.botao1:hover{
+    background:linear-gradient(55deg, #ff0000, #ffffff);
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+.botao2{
+    border-radius: 10px;
+    background:linear-gradient(55deg, #ffffff, #ff0000);
+    width: 80px;
+    height: 30px;
+
+}
+
+.botao3{
+    border-radius: 10px;
+    background:linear-gradient(55deg, #ffffff, #ff0000);
+    width: 80px;
+    height: 30px;
+
+}
+
+.botao4{
+    border-radius: 10px;
+    background:linear-gradient(55deg, #ffffff, #ff0000);
+    width: 80px;
+    height: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
